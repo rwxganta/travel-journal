@@ -121,7 +121,7 @@ main {
 .wrapper {
     --spacer: 1.125rem;
     margin-inline: auto;
-    margin-block-start: 2.8125rem;
+    margin-block: 2.8125rem;
     max-width: 500px;
 }
 
