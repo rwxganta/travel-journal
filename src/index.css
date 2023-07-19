@@ -93,3 +93,17 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* General Styling */
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+}
+
+.wrapper {
+  margin-inline: auto;
+  max-width: 470px;
+}

@@ -1,0 +1,17 @@
+header {
+    padding-block: 1rem;
+    background-color: var(--primary-header);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+
+header h1 {
+    font-size: 1.05rem;
+    font-weight: var(--fw-medium);
+    line-height: 1;
+    letter-spacing: -1px;
+    color: var(--neutral-white);
+}
