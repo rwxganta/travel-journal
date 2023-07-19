@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1.1875rem;
+}
+
+.card:not(:only-child, :last-child) {
+    padding-block-end: 1.125rem;
+    border-bottom: 1px solid var(--neutral-divider);
+}
+
+.card img {
+    max-width: 140px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.location img {
+    width: .4rem;
+    height: .596875rem;
+}
+
+.location--country {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.location a {
+    margin-left: .75rem;
+    color: var(--neutral-link);
+}
+
+.card--title,
+.card--date {
+    font-weight: var(--fw-bold);
+}
+
+.card--title {
+    margin-block-end: 1.2rem;
+    font-size: 1.5625rem;
+}
+
+.card--date {
+    display: inline-block;
+    margin-block-end: .5rem;
+}
+
+/* TODO: 440px @media */
