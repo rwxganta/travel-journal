@@ -10,7 +10,7 @@ export default function Card({data}) {
                 <span className='location'>
                     <img src={pointer} alt="" />
                     <p className='location--country'>{location}</p>
-                    <a href={maps}>View on Google Maps</a>
+                    <a href={maps} target='_blank' rel='noopener noreferrer'>View on Google Maps</a>
                 </span>
                 <h2 className='card--title'>{title}</h2>
                 <p className='card--date'>{dateBegin} - {dateEnd}</p>
